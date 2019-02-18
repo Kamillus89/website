@@ -9,16 +9,33 @@
   </head>
   <body>
     <header>
+      <h1>My first website</h1>
 
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      
     </header>
-    <h1>My first website</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="info.html">Info</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
 
+    <br>
+    <form action="/action_page.php" class="background" onSubmit="">
+      <fieldset>
+        <legend>Sent message:</legend>
+        Name:<br>
+        <input type="text" name="firstname" required>
+        <br><br>
+        Mail:<br>
+        <input type="email" name="lastname" required>
+        <br><br>
+        Message:<br>
+        <textarea name="message">Hello,</textarea>
+        <br>
+        <input type="submit" value="Sent">
+      </fieldset>
+    </form>
 
 
     <footer>

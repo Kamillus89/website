@@ -3,12 +3,24 @@
 }
 
 body {
-  background-color: white;
+  background-image: url("https://cdn.pixabay.com/photo/2014/07/28/20/39/landscape-404072_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+/*  background-color: white;*/
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
   margin: 0;
   color: #444;
+}
+section {
+  justify-content:space-between;
+}
+
+.background{
+  background: rgba(229, 229, 229, 0.6);
 }
 
 .container{
@@ -17,22 +29,36 @@ body {
 
 h1 {
   font-family: Verdana;
-  font-size: 250%;
+  font-size: 2.5em;
   padding: 12px;
   text-align: center;
 }
+
+h2 {
+  background: rgba(255, 165, 0, 0.6);
+}
 .main {
   float:left;
-  width:60%;
+  width:65%;
   padding:0 20px;
+  margin: 1%;
 }
 .right {
-  background-color:#e5e5e5;
+  background-color:rgba(229, 229, 229, 0.7);
   float:left;
   width:30%;
   padding:5px;
-  margin-top:7px;
+/*
+  margin-top:10px;
+  margin-left: 10px;
+*/
+  margin:1%;
   text-align:center;
+  z-index: +1;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -48,14 +74,22 @@ li {
   padding: 8px;
 }
 footer {
-  position: absolute;
+  clear: both;
+  position:relative;
   text-align: center;
   padding: 2px;
+  padding-top: 2%;
   right: 0;
   bottom: 0;
   left: 0;
   margin: 0px 50px;
 }
+
+textarea{
+  width: 50%;
+  height: 150px;
+}
+
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
   .main, .right {
