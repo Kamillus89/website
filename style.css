@@ -43,6 +43,11 @@ h2 {
   padding:0 20px;
   margin: 1%;
 }
+.about {
+  width: 75%;
+  padding: 0 20px;
+  margin: 1%;
+}
 .right {
   background-color:rgba(229, 229, 229, 0.7);
   float:left;
@@ -88,6 +93,16 @@ footer {
 textarea{
   width: 50%;
   height: 150px;
+}
+
+.photo {
+  /* display: flex; */
+  /* align-content:center; */
+  padding: 5%;
+}
+
+img {
+  height: 200px;
 }
 
 @media only screen and (max-width:620px) {
