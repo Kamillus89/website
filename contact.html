@@ -25,18 +25,18 @@
 
   <br>
   <form action="" class="background" onSubmit="">
-    <fieldset>
+  <fieldset id="field">
       <legend>Sent message:</legend>
       Name:<br>
-      <input id="userName" type="text" name="name" required>
+      <input id="userName" type="text" name="name" > <!--required-->
       <br><br>
       Mail:<br>
-      <input type="email" required>
+      <input id="mail" type="email" > <!--required-->
       <br><br>
       Message:<br>
       <textarea name="message">Hello,</textarea>
       <br>
-      <input type="submit" value="Sent">
+      <input type="submit" value="Sent" disabled>
     </fieldset>
   </form>
 
